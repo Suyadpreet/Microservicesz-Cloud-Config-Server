@@ -1,0 +1,12 @@
+management:
+  security:
+    enabled: false
+server:
+  port: 9091
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true
+          uri: https://github.com/ashokitschool/configuration_properties
